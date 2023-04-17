@@ -26,11 +26,11 @@ jobs:
 
      steps:
 
-    - uses: actions/checkout@main
+     - uses: actions/checkout@main
 
-    - name: Deploy to Azure Web App
+     - name: Deploy to Azure Web App
 
-      uses: azure/webapps-deploy@v1
+       uses: azure/webapps-deploy@v1
 
       with:
 
